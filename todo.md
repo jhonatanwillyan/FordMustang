@@ -7,7 +7,7 @@
 - [x] Implementar a nova página editorial com linha do tempo e capítulo dedicado às 24 Horas de Le Mans.
 - [x] Garantir navegação, acessibilidade, responsividade e estados interativos.
 - [x] Executar typecheck, testes, build e revisão visual final em desktop e mobile.
-- [ ] Salvar checkpoint final e sincronizar a versão atualizada com o GitHub.
+- [x] Salvar checkpoint final e sincronizar a versão atualizada com o GitHub.
 
 ## Critérios editoriais
 
@@ -40,4 +40,4 @@
 
 - [x] Confirmar que todos os assets v2 (hero, assembly, GT40, retorno 2016, DNA e futuro) concluíram a geração sem placeholders ou falhas.
 - [x] Refazer a revisão visual final em desktop e mobile após a confirmação dos assets definitivos.
-- [ ] Salvar checkpoint final e então sincronizar a versão validada com o GitHub.
+- [x] Salvar checkpoint final e então sincronizar a versão validada com o GitHub.
