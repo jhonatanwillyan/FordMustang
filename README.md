@@ -1,26 +1,28 @@
-# Mustang — 60+ Anos de Lenda
+# Ford — Linha de montagem, linha de chegada
 
-Site editorial responsivo em português sobre a história do Ford Mustang.
+Experiência editorial sobre a trajetória da Ford, desde o Quadriciclo e o Model T até o Ford GT40, as 24 Horas de Le Mans e os próximos capítulos da marca.
 
-## Conteúdo
+## Executar a versão estática
 
-- História do lançamento em 1964
-- As 7 gerações do Mustang
-- Versões clássicas e modernas
-- Shelby, Boss, Mach 1, Bullitt, Cobra e outras edições
-- Linha Mustang 2026
-- Mustang GTD e Dark Horse
-- Mustang Mach-E 2026
-- Mustang no Brasil
-- Comparador entre gerações
-- Galeria de imagens
+A pasta `html/` contém o pacote estático pronto para ser servido sem Node.js ou banco de dados. Abra `html/index.html` em um navegador ou sirva o diretório com qualquer servidor HTTP estático:
 
-## Stack
+```bash
+cd html
+python3 -m http.server 8080
+```
 
-React + TypeScript + Vite + Tailwind CSS.
+Depois, acesse `http://localhost:8080`.
 
 ## GitHub Pages
 
-O repositório inclui um workflow em `.github/workflows/deploy-pages.yml` que compila o projeto com base `/FordMustang/` e publica o conteúdo estático em GitHub Pages.
+O workflow em `.github/workflows/deploy-pages.yml` publica automaticamente o conteúdo de `html/` na branch `main`. A versão pública fica disponível em:
 
-> Projeto independente e não afiliado à Ford Motor Company.
+<https://jhonatanwillyan.github.io/FordMustang/>
+
+## Licença
+
+O código-fonte e a versão estática deste projeto são distribuídos sob a [licença MIT](./LICENSE). O uso de imagens, marcas, nomes comerciais e referências de terceiros permanece sujeito aos direitos e avisos aplicáveis de seus respectivos titulares; a licença MIT não transfere esses direitos.
+
+## Conteúdo histórico
+
+As referências institucionais usadas na narrativa estão indicadas dentro da experiência. O capítulo de Le Mans utiliza materiais da Ford e do Automobile Club de l'Ouest (ACO) como fontes editoriais.
